@@ -1,0 +1,19 @@
+{
+  "name": "sistema-gestor-inventario",
+  "version": "1.0.0",
+  "description": "Sistema de gestión de inventarios usando Node.js y archivos JSON",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["inventario", "nodejs", "express", "json"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
